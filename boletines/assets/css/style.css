@@ -1,0 +1,159 @@
+/* Definimos los estilos universales*/
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    width: 250px;
+    display: block;
+    float: left;
+    margin-right: 1em;
+}
+
+.container {
+    height: auto;
+    min-height: 100vh;
+
+    background-image: url("../images/soccer_field.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    background-color: #C8E6C9;
+    color: #212121;
+    overflow-y: scroll;
+
+    height: 80vh;
+    width: 1000px;
+
+    box-shadow: 0px 0px 10px 3px #C8E6C9;
+    border-radius: 5px;
+
+    position: relative;
+}
+
+
+@media (max-width:1050px) {
+    .content {
+        width: 90vw;
+    }
+
+    header {
+        font-size: 0.8em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+}
+
+@media (max-width:580px) {
+
+    header {
+        width: 100%;
+        min-width: max-content;
+    }
+
+    img {
+        float: none;
+        margin: auto;
+        margin-bottom: 1em;
+    }
+
+    section {
+        position: absolute;
+        left: 1em;
+    }
+}
+
+
+.actions {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 30px;
+}
+
+header {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 5px 5px 0 0;    
+}
+
+section {
+    padding: 10px;
+    text-align: justify;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.4sem;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+table td, table th {
+    padding: 10px;
+    text-align: left;
+}
+
+.material-symbols-outlined {
+    color: #FF9800;
+}
+
+.arrow {
+    color: #757575;
+    text-decoration: none;
+}
+
+table tr:nth-child(even){
+    background-color: #aedfaf;
+}
+
+h2 {
+    padding: 10px;
+}
+
+.number {
+    background-color: #388E3C;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+
+    position: absolute;
+    left: 15px;
+    top: 10px;
+
+}
+
+.close {
+    color: white;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+a:active {
+    opacity: 0.7;
+}
+
