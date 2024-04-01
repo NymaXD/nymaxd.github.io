@@ -35,7 +35,7 @@ closer.addEventListener("click", function(event){
     content.classList.add("animate__backOutUp");
 
     setTimeout(function(){
-        location.href = "/";
+        location.href = "/boletines";
     }, 800);
 
 });
